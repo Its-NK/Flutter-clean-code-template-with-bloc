@@ -20,4 +20,4 @@ github: https://github.com/Its-NK
 
 linkedin : https://www.linkedin.com/in/itsnk
 
-Whatsapp : [wa.me/923339764616]([url](https://api.whatsapp.com/send/?phone=923339764616&text&type=phone_number&app_absent=0))
+Whatsapp : wa.me/923339764616 ([Click to Chat](https://api.whatsapp.com/send/?phone=923339764616&text&type=phone_number&app_absent=0)
