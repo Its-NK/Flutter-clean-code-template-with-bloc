@@ -1,4 +1,3 @@
-import 'package:bloc_clean_coding/utils/extensions/validations_exception.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'; // Importing app localizations for translated text
@@ -20,7 +19,8 @@ class EmailInput extends StatelessWidget {
           decoration: InputDecoration(
             icon: const Icon(Icons.email), // Icon for email input field
             labelText: AppLocalizations.of(context)!.email, // Label text for email input field
-            helperText: AppLocalizations.of(context)!.aCompleteValidEmailExamplejoegmailcom, // Helper text for email input field
+            helperText: AppLocalizations.of(context)!
+                .aCompleteValidEmailExamplejoegmailcom, // Helper text for email input field
           ),
           keyboardType: TextInputType.emailAddress, // Setting keyboard type to email address
           onChanged: (value) {
@@ -32,9 +32,9 @@ class EmailInput extends StatelessWidget {
               return 'Enter email';
             }
 
-            if (value.emailValidator()) {
-              return 'Email is not correct';
-            }
+            // if (value.emailValidator()) {
+            //   return 'Email is not correct';
+            // }
             return null;
           },
           textInputAction: TextInputAction.next,
